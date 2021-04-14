@@ -2,3 +2,5 @@ node_modules
 
 .DS_Store
 package-lock.json
+
+cypress/reports/index.html
