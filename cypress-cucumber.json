@@ -1,0 +1,12 @@
+{
+    "$schema": "https://raw.githubusercontent.com/cypress-io/cypress/develop/cli/schema/cypress.schema.json",
+    "baseUrl": "http://prova.stefanini-jgr.com.br/",
+    "experimentalSourceRewriting": false,
+    "WatchForFileChanges": false,
+    "testFiles": "**/*.feature",
+    "user": {
+        "name": "Nayara Aquino",
+        "email": "nayara@nayara.com",
+        "password": "12345678"
+    }
+}

@@ -1,0 +1,63 @@
+[
+  {
+    "description": "    Eu como usuário do sistema\n    Desejo realizar o cadastro de novos usuários\n    Para que seja possível armazenar e gerenciar seus dados",
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login;realizar-login",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Realizar login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "que eu acesso a página",
+            "result": {
+              "status": "passed",
+              "duration": 1216000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "eu insiro todos os meus dados corretamente",
+            "result": {
+              "status": "passed",
+              "duration": 928000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "clico no botão Cadastrar",
+            "result": {
+              "status": "passed",
+              "duration": 93000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "meu cadastro é feito com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

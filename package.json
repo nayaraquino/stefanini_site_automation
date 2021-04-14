@@ -1,0 +1,25 @@
+{
+  "name": "Stefanini",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cucumber-html-reporter": "^5.4.0",
+    "cypress": "^6.8.0",
+    "cypress-cucumber-preprocessor": "^4.0.3"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/reports/cucumber-json",
+      "filePrefix": "",
+      "fileSufix": ".cucumber"
+    }
+  }
+}
