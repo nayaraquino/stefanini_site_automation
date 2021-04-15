@@ -11,6 +11,7 @@ Optei por utilizar o framework Cypress, pois é o qual eu mais tenho aprofundado
 - Page Objects - cypress/support/pages/elements.js
 - Classes - cypress/support/pages/index.js
 - Ações executadas em Background - cypress/support/index.js
+- Relatório HTML - cypress/reports/cucumber_report.html
 
 
 ## :hammer_and_wrench: Tecnologias Utilizadas
@@ -48,7 +49,7 @@ Após isso, é só escolher o arquivo de teste login.feature e assistir a execu�
 
 
 ## :bookmark: Relatório de Execução
-O relatório com o resultado dos testes está localizado em cypress/reports/cucumber_report.html
+Só lembrando, o relatório com o resultado dos testes está localizado em cypress/reports/cucumber_report.html
 
 Basta abrir o arquivo no navegador para visualizá-lo.
 
