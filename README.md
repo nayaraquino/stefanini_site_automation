@@ -32,7 +32,7 @@ Optei por utilizar o framework Cypress, pois é o qual eu mais tenho aprofundado
 
 ```bash
 # Clone este repositório
-$ git clone
+$ git clone https://github.com/nayaraquino/qa_stefanini_challange.git
 ```
 A execução pode ser feita através da linha de comando ou do próprio framework.
 - Através da linha de comando:
