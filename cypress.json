@@ -4,14 +4,19 @@
     "experimentalSourceRewriting": false,
     "WatchForFileChanges": true,
     "testFiles": "**/*.{feature,features}",
-    "validUser": {
-        "name": "Nayara Aquino",
-        "email": "nayara@nayara.com",
+    "validUser1": {
+        "name": "João da Silva",
+        "email": "joao@email.com",
         "password": "12345678"
     },
+    "validUser2": {
+        "name": "Juliana Tavares",
+        "email": "juliana@email.com",
+        "password": "abcdefghi"
+    },
     "invalidUser": {
-        "name": "Nayara",
-        "email": "nayara@com",
+        "name": "Claudio",
+        "email": "claudio@com",
         "password": "1234"
     }
 }

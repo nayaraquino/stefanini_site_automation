@@ -12,15 +12,18 @@
 // You can read more here:
 // https://on.cypress.io/configuration
 // ***********************************************************
+
+const el = require('./pages/login/elements').ELEMENTS
+
 Cypress.Commands.add('backgroundRegister', () => {
     cy.visit('http://prova.stefanini-jgr.com.br/teste/qa/');
-    cy.get('input[id="name"]').type('Nayara Aquino');
-    cy.get('input[id="email"]').type('nayara@nayara.com');
-    cy.get('input[id="password"]').type('12345678');
-    cy.get('button[id="register"]').click();
+    cy.get(el.inputName).type(Cypress.config().validUser1.name);
+    cy.get(el.inputEmail).type(Cypress.config().validUser1.email);
+    cy.get(el.inputPassword).type(Cypress.config().validUser1.password);
+    cy.get(el.buttonRegister).click();
 
-    cy.get('input[id="name"]').type('Claudio Teles');
-    cy.get('input[id="email"]').type('claudio@claudio.com');
-    cy.get('input[id="password"]').type('12345678');
-    cy.get('button[id="register"]').click();
+    cy.get(el.inputName).type(Cypress.config().validUser2.name);
+    cy.get(el.inputEmail).type(Cypress.config().validUser2.email);
+    cy.get(el.inputPassword).type(Cypress.config().validUser2.password);
+    cy.get(el.buttonRegister).click();
 })

@@ -5,9 +5,9 @@ class HomePage {
         cy.visit('teste/qa/');
     }
     validLoginFillForm() {
-        cy.get(el.inputName).type(Cypress.config().validUser.name);
-        cy.get(el.inputEmail).type(Cypress.config().validUser.email);
-        cy.get(el.inputPassword).type(Cypress.config().validUser.password);
+        cy.get(el.inputName).type(Cypress.config().validUser1.name);
+        cy.get(el.inputEmail).type(Cypress.config().validUser1.email);
+        cy.get(el.inputPassword).type(Cypress.config().validUser1.password);
     }
 
     invalidLoginFillForm() {
