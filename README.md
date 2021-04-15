@@ -14,12 +14,9 @@ Optei por utilizar o framework Cypress, pois é o qual eu mais tenho aprofundado
 ## ▶️ Testes em Execução
 ![stefanini](https://user-images.githubusercontent.com/71460952/114915973-a6c14180-9dfa-11eb-8cf7-49b8615430b9.gif)
 
+## :checkered_flag: Pré-requisitos e como rodar os testes
 
-## :bookmark_tabs: Resultado dos Testes
-
-
-## :checkered_flag: Pré-requisitos e como rodar a aplicação/testes
-Para executar os testes localmente é necessário ter o Node.JS e o Cypress instalados. Recomendo a versão 6.8.0 do Cypress.
+> Backgound: Ter o [Node.JS](https://nodejs.org/en/) instalado.
 
 ```bash
 # Instale o Cypress
@@ -28,7 +25,7 @@ $ npm install -D cypress@6.8.0
 # Clone este repositório
 $ git clone
 ```
-> Para a execução, pode ser feito através da linha de comando ou do próprio framework.
+> A execução pode ser feita através da linha de comando ou do próprio framework.
 - Através da linha de comando:
 ```bash
 # Na pasta Stefanini, execute:
