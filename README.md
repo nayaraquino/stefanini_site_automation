@@ -22,14 +22,14 @@ Optei por utilizar o framework Cypress, pois é o qual eu mais tenho aprofundado
 ## ▶️ Testes em Execução
 ![stefanini](https://user-images.githubusercontent.com/71460952/114915973-a6c14180-9dfa-11eb-8cf7-49b8615430b9.gif)
 
-## :checkered_flag: Pré-requisitos e como rodar os testes
+## :memo: Pré-requisitos
 
-> Backgound: Ter o [Node.JS](https://nodejs.org/en/) instalado.
+- [Cypress](https://www.cypress.io/)
+- [Node.JS](https://nodejs.org/en/)
+
+## :checkered_flag: Como executar os Testes
 
 ```bash
-# Instale o Cypress
-$ npm install -D cypress@6.8.0
-
 # Clone este repositório
 $ git clone
 ```
