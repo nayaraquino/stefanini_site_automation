@@ -18,4 +18,8 @@ Feature: Login
 
     Scenario: Realizar cadastro sem credenciais
         When eu clico no botão Cadastrar sem inserir nenhum dado
-        Then meu cadastro não é realizado
+        Then meu cadastro não é finalizado
+
+    Scenario: Excluir usuário
+        When eu clico em Excluir
+        Then meu registro é deletado

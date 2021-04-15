@@ -23,7 +23,7 @@
             "name": "que eu acesso a página",
             "result": {
               "status": "passed",
-              "duration": 309000000
+              "duration": 315000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "eu insiro todos os meus dados corretamente",
             "result": {
               "status": "passed",
-              "duration": 932000000
+              "duration": 971000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "clico no botão Cadastrar",
             "result": {
               "status": "passed",
-              "duration": 92000000
+              "duration": 91000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "meu cadastro é feito com sucesso",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 14000000
             }
           }
         ]
@@ -73,7 +73,7 @@
             "name": "que eu acesso a página",
             "result": {
               "status": "passed",
-              "duration": 240000000
+              "duration": 242000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "eu insiro dados inválidos",
             "result": {
               "status": "passed",
-              "duration": 681000000
+              "duration": 698000000
             }
           },
           {
@@ -103,7 +103,7 @@
             "name": "meu cadastro não é realizado",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 51000000
             }
           }
         ]
@@ -123,7 +123,7 @@
             "name": "que eu acesso a página",
             "result": {
               "status": "passed",
-              "duration": 234000000
+              "duration": 240000000
             }
           },
           {
@@ -133,17 +133,17 @@
             "name": "eu clico no botão Cadastrar sem inserir nenhum dado",
             "result": {
               "status": "passed",
-              "duration": 92000000
+              "duration": 93000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 21,
-            "name": "meu cadastro não é realizado",
+            "name": "meu cadastro não é finalizado",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 39000000
             }
           }
         ]
