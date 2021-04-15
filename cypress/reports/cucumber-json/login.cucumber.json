@@ -1,9 +1,9 @@
 [
   {
     "description": "    Eu como usuário do sistema\n    Desejo realizar o cadastro de novos usuários\n    Para que seja possível armazenar e gerenciar seus dados",
-    "keyword": "Feature",
+    "keyword": "Funcionalidade",
     "name": "Login",
-    "line": 1,
+    "line": 3,
     "id": "login",
     "tags": [],
     "uri": "login.feature",
@@ -11,49 +11,49 @@
       {
         "id": "login;realizar-cadastro-com-credenciais-válidas",
         "keyword": "Scenario",
-        "line": 9,
+        "line": 11,
         "name": "Realizar cadastro com credenciais válidas",
         "tags": [],
         "type": "scenario",
         "steps": [
           {
             "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
+            "keyword": "Dado ",
+            "line": 9,
             "name": "que eu acesso a página",
             "result": {
               "status": "passed",
-              "duration": 315000000
+              "duration": 1326000000
             }
           },
           {
             "arguments": [],
-            "keyword": "When ",
-            "line": 10,
+            "keyword": "Quando ",
+            "line": 12,
             "name": "eu insiro todos os meus dados corretamente",
             "result": {
               "status": "passed",
-              "duration": 971000000
+              "duration": 1021000000
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
-            "line": 11,
+            "keyword": "E ",
+            "line": 13,
             "name": "clico no botão Cadastrar",
             "result": {
               "status": "passed",
-              "duration": 91000000
+              "duration": 95000000
             }
           },
           {
             "arguments": [],
-            "keyword": "Then ",
-            "line": 12,
+            "keyword": "Então ",
+            "line": 14,
             "name": "meu cadastro é feito com sucesso",
             "result": {
               "status": "passed",
-              "duration": 14000000
+              "duration": 22000000
             }
           }
         ]
@@ -61,49 +61,49 @@
       {
         "id": "login;realizar-cadastro-com-credenciais-inválidas",
         "keyword": "Scenario",
-        "line": 14,
+        "line": 16,
         "name": "Realizar cadastro com credenciais inválidas",
         "tags": [],
         "type": "scenario",
         "steps": [
           {
             "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
+            "keyword": "Dado ",
+            "line": 9,
             "name": "que eu acesso a página",
             "result": {
               "status": "passed",
-              "duration": 242000000
+              "duration": 246000000
             }
           },
           {
             "arguments": [],
-            "keyword": "When ",
-            "line": 15,
+            "keyword": "Quando ",
+            "line": 17,
             "name": "eu insiro dados inválidos",
             "result": {
               "status": "passed",
-              "duration": 698000000
+              "duration": 662000000
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
-            "line": 16,
+            "keyword": "E ",
+            "line": 18,
             "name": "clico no botão Cadastrar",
             "result": {
               "status": "passed",
-              "duration": 91000000
+              "duration": 82000000
             }
           },
           {
             "arguments": [],
-            "keyword": "Then ",
-            "line": 17,
+            "keyword": "Então ",
+            "line": 19,
             "name": "meu cadastro não é realizado",
             "result": {
               "status": "passed",
-              "duration": 51000000
+              "duration": 43000000
             }
           }
         ]
@@ -111,39 +111,79 @@
       {
         "id": "login;realizar-cadastro-sem-credenciais",
         "keyword": "Scenario",
-        "line": 19,
+        "line": 21,
         "name": "Realizar cadastro sem credenciais",
         "tags": [],
         "type": "scenario",
         "steps": [
           {
             "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
+            "keyword": "Dado ",
+            "line": 9,
             "name": "que eu acesso a página",
             "result": {
               "status": "passed",
-              "duration": 240000000
+              "duration": 211000000
             }
           },
           {
             "arguments": [],
-            "keyword": "When ",
-            "line": 20,
+            "keyword": "Quando ",
+            "line": 22,
             "name": "eu clico no botão Cadastrar sem inserir nenhum dado",
             "result": {
               "status": "passed",
-              "duration": 93000000
+              "duration": 87000000
             }
           },
           {
             "arguments": [],
-            "keyword": "Then ",
-            "line": 21,
+            "keyword": "Então ",
+            "line": 23,
             "name": "meu cadastro não é finalizado",
             "result": {
               "status": "passed",
-              "duration": 39000000
+              "duration": 36000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;excluir-usuário",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Excluir usuário",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que eu acesso a página",
+            "result": {
+              "status": "passed",
+              "duration": 212000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 26,
+            "name": "eu clico em Excluir",
+            "result": {
+              "status": "passed",
+              "duration": 2354000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 27,
+            "name": "meu registro é deletado",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
             }
           }
         ]

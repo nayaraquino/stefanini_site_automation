@@ -1,25 +1,27 @@
-Feature: Login
-    Eu como usuário do sistema
-    Desejo realizar o cadastro de novos usuários
-    Para que seja possível armazenar e gerenciar seus dados
+#language: pt
 
-    Background:
-        Given que eu acesso a página
+Funcionalidade: Login
+Eu como usuário do sistema
+Desejo realizar o cadastro de novos usuários
+Para que seja possível armazenar e gerenciar seus dados
 
-    Scenario: Realizar cadastro com credenciais válidas
-        When eu insiro todos os meus dados corretamente
-        And clico no botão Cadastrar
-        Then meu cadastro é feito com sucesso
+Contexto:
+    Dado que eu acesso a página
 
-    Scenario: Realizar cadastro com credenciais inválidas
-        When eu insiro dados inválidos
-        And clico no botão Cadastrar
-        Then meu cadastro não é realizado
+    Cenário: Realizar cadastro com credenciais válidas
+    Quando eu insiro todos os meus dados corretamente
+    E clico no botão Cadastrar
+    Então meu cadastro é feito com sucesso
 
-    Scenario: Realizar cadastro sem credenciais
-        When eu clico no botão Cadastrar sem inserir nenhum dado
-        Then meu cadastro não é finalizado
+    Cenário: Realizar cadastro com credenciais inválidas
+    Quando eu insiro dados inválidos
+    E clico no botão Cadastrar
+    Então meu cadastro não é realizado
 
-    Scenario: Excluir usuário
-        When eu clico em Excluir
-        Then meu registro é deletado
+    Cenário: Realizar cadastro sem credenciais
+    Quando eu clico no botão Cadastrar sem inserir nenhum dado
+    Então meu cadastro não é finalizado
+
+    Cenário: Excluir usuário
+    Quando eu clico em Excluir
+    Então meu registro é deletado
