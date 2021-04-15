@@ -7,12 +7,33 @@ Given(/^que eu acesso a página$/, () => {
 });
 
 When(/^eu insiro todos os meus dados corretamente$/, () => {
-    homepage.fillForm()
+	homepage.validLoginFillForm()
 });
 
-And(/^clico no botão Cadastrar$/, () => {
+When(/^clico no botão Cadastrar$/, () => {
     homepage.submitLogin()
 });
 
 Then(/^meu cadastro é feito com sucesso$/, () => {
+	
+});
+
+When(/^eu insiro dados inválidos$/, () => {
+	homepage.invalidLoginFillForm()
+});
+
+When(/^clico no botão Cadastrar$/, () => {
+    homepage.submitLogin()
+});
+
+Then(/^meu cadastro não é realizado$/, () => {
+	
+});
+
+When(/^eu clico no botão Cadastrar sem inserir nenhum dado$/, () => {
+	homepage.submitLogin()
+});
+
+Then(/^meu cadastro não é realizado$/, () => {
+	
 });

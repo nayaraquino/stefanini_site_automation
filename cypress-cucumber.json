@@ -4,9 +4,14 @@
     "experimentalSourceRewriting": false,
     "WatchForFileChanges": false,
     "testFiles": "**/*.feature",
-    "user": {
+    "validUser": {
         "name": "Nayara Aquino",
         "email": "nayara@nayara.com",
         "password": "12345678"
+    },
+    "invalidUser": {
+        "name": "Nayara",
+        "email": "nayara@com",
+        "password": "1234"
     }
 }
