@@ -1,59 +1,189 @@
 [
   {
-    "description": "    Eu como usuário do sistema\n    Desejo realizar o cadastro de novos usuários\n    Para que seja possível armazenar e gerenciar seus dados",
-    "keyword": "Feature",
+    "description": "Eu como usuário do sistema\nDesejo realizar o cadastro de novos usuários\nPara que seja possível armazenar e gerenciar seus dados",
+    "keyword": "Funcionalidade",
     "name": "Login",
-    "line": 1,
+    "line": 3,
     "id": "login",
     "tags": [],
     "uri": "login.feature",
     "elements": [
       {
-        "id": "login;realizar-login",
+        "id": "login;realizar-cadastro-com-credenciais-válidas",
         "keyword": "Scenario",
-        "line": 12,
-        "name": "Realizar login",
+        "line": 11,
+        "name": "Realizar cadastro com credenciais válidas",
         "tags": [],
         "type": "scenario",
         "steps": [
           {
             "arguments": [],
-            "keyword": "Given ",
-            "line": 13,
+            "keyword": "Dado ",
+            "line": 9,
             "name": "que eu acesso a página",
             "result": {
               "status": "passed",
-              "duration": 1216000000
+              "duration": 1262000000
             }
           },
           {
             "arguments": [],
-            "keyword": "When ",
-            "line": 14,
+            "keyword": "Quando ",
+            "line": 12,
             "name": "eu insiro todos os meus dados corretamente",
             "result": {
               "status": "passed",
-              "duration": 928000000
+              "duration": 949000000
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
-            "line": 15,
+            "keyword": "E ",
+            "line": 13,
             "name": "clico no botão Cadastrar",
             "result": {
               "status": "passed",
-              "duration": 93000000
+              "duration": 92000000
             }
           },
           {
             "arguments": [],
-            "keyword": "Then ",
-            "line": 16,
+            "keyword": "Então ",
+            "line": 14,
             "name": "meu cadastro é feito com sucesso",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 19000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;realizar-cadastro-com-credenciais-inválidas",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Realizar cadastro com credenciais inválidas",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que eu acesso a página",
+            "result": {
+              "status": "passed",
+              "duration": 254000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 17,
+            "name": "eu insiro dados inválidos",
+            "result": {
+              "status": "passed",
+              "duration": 647000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 18,
+            "name": "clico no botão Cadastrar",
+            "result": {
+              "status": "passed",
+              "duration": 84000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 19,
+            "name": "meu cadastro não é realizado",
+            "result": {
+              "status": "passed",
+              "duration": 44000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;realizar-cadastro-sem-credenciais",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Realizar cadastro sem credenciais",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que eu acesso a página",
+            "result": {
+              "status": "passed",
+              "duration": 210000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 22,
+            "name": "eu clico no botão Cadastrar sem inserir nenhum dado",
+            "result": {
+              "status": "passed",
+              "duration": 87000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 23,
+            "name": "meu cadastro não é finalizado",
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;excluir-usuário",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Excluir usuário",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que eu acesso a página",
+            "result": {
+              "status": "passed",
+              "duration": 210000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 26,
+            "name": "eu clico em Excluir",
+            "result": {
+              "status": "passed",
+              "duration": 2316000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 27,
+            "name": "meu registro é deletado",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
             }
           }
         ]
