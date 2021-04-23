@@ -1,9 +1,9 @@
-# QA Challenge
-### Stefanini Group
+# Testes Automatizados
+### Projeto para fins de estudo.
 ---
-Projeto desenvolvido para o desafio técnico do processo seletivo da Stefanini Group.
+Projeto desenvolvido para exercício do conteúdo estudado no Agilizei Bootcamp.
 
-Optei por utilizar o framework Cypress, pois é o qual eu mais tenho aprofundado meus estudos ultimamente e é com ele que eu tenho mais afinidade.
+Utilizei o site de testes da Stefanini.
 
 ## :bookmark_tabs: Guia do Projeto
 - Feature - cypress/integration/login.feature
